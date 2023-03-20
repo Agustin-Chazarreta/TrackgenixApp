@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.children {
+  margin: 70px 0 0 180px;
+
+  /* margin: 0 0 0 180px; */
+}
+
+.body {
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+@media (max-width: 768px) {
+  .body {
+    margin-left: 0;
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .body {
+    margin-left: 0;
+    margin-top: 150px;
+  }
+}
+
+ /* TABLET desde 992px */
+ @media (max-width: 1024px) {
+  .children {
+    margin: 35px 0 0 0px;
+  }
+  }
+
+ /* MOBILE hasta 800px */
+ @media (min-width: 800px) {
+
+}
+
+ /* TABLET desde 992px */
+ @media (min-width: 1024px) {
+
+}
